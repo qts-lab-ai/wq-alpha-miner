@@ -1,0 +1,16 @@
+{
+  "name": "wq-alpha-miner",
+  "version": "1.0.0",
+  "description": "Automated WorldQuant BRAIN alpha research skill — field search, expression generation, WebSim simulation, IS diagnostics, self-correlation control",
+  "keywords": ["worldquant", "brain", "alpha", "factor", "quantitative", "research", "sharpe", "stock"],
+  "author": "QTS Quant Lab",
+  "license": "MIT",
+  "repository": {"type": "git", "url": "https://github.com/qts-lab/wq-alpha-miner"},
+  "dependencies": {"requests": ">=2.25.0", "numpy": ">=1.21.0"},
+  "okx-skill": {
+    "type": "quantitative-research",
+    "category": "alpha-mining",
+    "requiresAuth": true,
+    "pricing": {"model": "paid", "price": 1499, "currency": "USD", "interval": "month"}
+  }
+}
